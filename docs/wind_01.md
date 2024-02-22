@@ -7,22 +7,22 @@ This document provides a visual and statistical analysis of wind components at d
 The following figures show the time series of the u and v components of the wind at different heights, measured at the ILL site and modeled by different methods.
 
 ### 10m Height
-![Time Series of uvmet at 10m](/path/to/ILL_comp_10m.png)
+![Time Series of uvmet at 10m](/pics/ILL_comp_10m.png)
 
 ### 20m Height
-![Time Series of uvmet at 20m](/path/to/ILL_comp_20m.png)
+![Time Series of uvmet at 20m](/pics/ILL_comp_20m.png)
 
 ### 60m Height
-![Time Series of uvmet at 60m](/path/to/ILL_comp_60m.png)
+![Time Series of uvmet at 60m](/pics/ILL_comp_60m.png)
 
 ### 100m Height
-![Time Series of uvmet at 100m](/path/to/ILL_comp_100m.png)
+![Time Series of uvmet at 100m](/pics/ILL_comp_100m.png)
 
 ## Mean Absolute Error (MAE) Table
 
 The MAE table provides a comparison of the absolute error between the measured and modeled u and v components of the wind.
 
-```markdown
+
 | Height (m)     | 10     | 10     | 20     | 20     | 60     | 60     | 100    | 100    |
 |----------------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Variable (m/s) | u      | v      | u      | v      | u      | v      | u      | v      |
