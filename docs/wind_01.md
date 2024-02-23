@@ -47,7 +47,7 @@ The Averaged Normalized Dot Product table indicates the similarity between the m
 The following figures show the time series of the u and v components of the wind at 10 meters measured at the LVD and PdC site and modeled by different configurations.
 
 ### 10m Height (LVD)
-![Time Series of uvmet at 10m](pics/LVD_comp_10m.png)
+![Time Series of uvmet at 10m](pics/LVD_comp_20m.png)
 
 ### 10m Height (PdC)
-![Time Series of uvmet at 10m](pics/LVD_comp_10m.png)
+![Time Series of uvmet at 10m](pics/LVD_comp_20m.png)
