@@ -2,20 +2,20 @@
 
 This document provides a visual and statistical analysis of wind components at different heights.
 
-## Time Series of Wind Components
+## Time Series of Wind Components at ILL
 
-The following figures show the time series of the u and v components of the wind at different heights, measured at the ILL site and modeled by different methods.
+The following figures show the time series of the u and v components of the wind at different heights, measured at the ILL site and modeled by different configurations.
 
-### 10m Height
+### 10m Height (ILL)
 ![Time Series of uvmet at 10m](pics/ILL_comp_10m.png)
 
-### 20m Height
+### 20m Height (ILL)
 ![Time Series of uvmet at 20m](pics/ILL_comp_20m.png)
 
-### 60m Height
+### 60m Height (ILL)
 ![Time Series of uvmet at 60m](pics/ILL_comp_60m.png)
 
-### 100m Height
+### 100m Height (ILL)
 ![Time Series of uvmet at 100m](pics/ILL_comp_100m.png)
 
 ## Mean Absolute Error (MAE) Table
@@ -40,3 +40,14 @@ The Averaged Normalized Dot Product table indicates the similarity between the m
 | BEP MYJ| 0.320 | 0.318 | 0.374 | 0.373 |
 | BEP BouLac | 0.337 | 0.363 | 0.380 | 0.378 |
 | BEM    | 0.343 | 0.358 | 0.378 | 0.376 |
+
+
+## Time Series of Wind Components at ILL
+
+The following figures show the time series of the u and v components of the wind at 10 meters measured at the LVD and PdC site and modeled by different configurations.
+
+### 10m Height (LVD)
+![Time Series of uvmet at 10m](pics/LVD_comp_10m.png)
+
+### 10m Height (PdC)
+![Time Series of uvmet at 10m](pics/LVD_comp_10m.png)
