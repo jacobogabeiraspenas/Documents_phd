@@ -50,4 +50,4 @@ The following figures show the time series of the u and v components of the wind
 ![Time Series of uvmet at 10m](pics/LVD_comp_20m.png)
 
 ### 10m Height (PdC)
-![Time Series of uvmet at 10m](pics/LVD_comp_20m.png)
+![Time Series of uvmet at 10m](pics/PdC_comp_20m.png)
