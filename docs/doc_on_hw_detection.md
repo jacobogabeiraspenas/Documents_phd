@@ -40,16 +40,15 @@ The EHF metric is calculated using three components:
 2. **Excess Heat Index (EHI) long-term (EHIACC):** Measures the deviation of the three-day mean temperature from the mean temperature of the previous 30 days.
 3. **EHF:** Combines the EHISIG and EHIACC to provide a metric that reflects both immediate and cumulative heat stress.
 
-EHISIG Formula
-\[ \text{EHISIG}(i) = \max\left(\frac{T_{M,i} + T_{M,i-1} + T_{M,i-2}}{3} - T_{95}, 0\right) \]
+EHISIG Formula: `EHISIG(i) = max((T_{M,i} + T_{M,i-1} + T_{M,i-2}) / 3 - T_{95}, 0)`
+
 A positive EHISIG indicates an unusually warm three-day period relative to the local climate statistics, while all other days are assigned a value of zero.
 
-EHIACC Formula
-\[ \text{EHIACC}(i) = \frac{T_{M,i} + T_{M,i-1} + T_{M,i-2}}{3} - \frac{\sum_{k=3}^{32} T_{M,(i-k)}}{30} \]
+EHIACC Formula: `EHIACC(i) = (T_{M,i} + T_{M,i-1} + T_{M,i-2}) / 3 - (sum_{k=3}^{32} T_{M,(i-k)}) / 30`
+
 A positive value of EHIACC indicates a sharp temperature rise, to which the local population might not have time to acclimatize.
 
-EHF Formula
-\[ \text{EHF}(i) = \text{EHISIG}(i) \times \max(1, \text{EHIACC}(i)) \]
+EHF Formula: `EHF(i) = EHISIG(i) * max(1, EHIACC(i))`
 
 Authors of the EHF method propose filtering out non-severe days by taking only the days whose excess heat factor exceeds the 85th percentile of all positive values during the climatological period. This approach improves the accuracy of detecting significant heatwaves and discarding non-severe events.
 
