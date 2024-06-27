@@ -86,11 +86,11 @@ The Integrated Excess Heat Factor (IEHF) and the maximum daily EHF value (maxEHF
 
 Here we implement these two methods on the historical data of the weahter station of the airport of Grenoble. The reason this station is chosen is because it is close to Grenoble and has a large temporal coverage. For both methods we set the climatological reference period on 1985-2014 while the total coverage is 1970-2024 for the purpose of later comparison with historical model data. 
 
-![hw_bubble_92nd.png](hw_bubble_92nd.png)
+![hw_bubble_92nd.png](pics/02_pics/hw_bubble_92nd.png)
 
 Fig. 1: Bubble plot of heatwaves 92nd percentile method for the period 1970-2024.
 
-![hw_bubble_ehf.png](hw_bubble_ehf2.png)
+![hw_bubble_ehf.png](pics/02_pics/hw_bubble_ehf2.png)
 
 Fig. 2: Bubble plot of heatwaves EHF percentile method for the period 1970-2024.
 
@@ -112,7 +112,7 @@ To understand the differences between the 92nd percentile and EHF methods in det
 
 In 1994, the 92nd percentile method detects five heatwave periods: July 1-4, July 12-14, July 25-30, August 3-9, and August 21-23. The EHF method identifies heatwaves from June 28-July 5 and August 1-6. Both methods agree on the significant heat events in late July and early August, but the EHF method also detects a heatwave in late June to early July not identified by the 92nd percentile method.
 
-![hw_1994_t_trend.png](hw_1994_t_trend.png)
+![hw_1994_t_trend.png](pics/02_pics/hw_1994_t_trend.png)
 
 Fig. 3: Heat wave episodes of summer of 1994. 
 
@@ -120,7 +120,7 @@ Fig. 3: Heat wave episodes of summer of 1994.
 
 In 2003, the 92nd percentile method detects a heatwave from August 5-14. The EHF method identifies this period as well but also detects additional heatwaves from June 8-16, June 20-26, and July 11-15. Both methods identify the major heatwave in August, but the EHF method captures additional periods of heat stress in June and July.
 
-![hw_2003_t_trend.png](hw_2003_t_trend.png)
+![hw_2003_t_trend.png](pics/02_pics/hw_2003_t_trend.png)
 
 Fig. 4: Heat wave episodes of summer of 2003.
 
@@ -128,7 +128,7 @@ Fig. 4: Heat wave episodes of summer of 2003.
 
 In 2006, the 92nd percentile method detects heatwaves from July 11-13 and July 19-27. The EHF method detects a heatwave from July 22-27, overlapping with the latter period detected by the 92nd percentile method. The EHF method identifies the same significant heat period in late July but does not identify the shorter heatwave in mid-July.
 
-![hw_2006_t_trend.png](hw_2006_t_trend.png)
+![hw_2006_t_trend.png](pics/02_pics/hw_2006_t_trend.png)
 
 Fig. 5: Heat wave episodes of summer of 2006.
 
@@ -136,7 +136,7 @@ Fig. 5: Heat wave episodes of summer of 2006.
 
 In 2018, the 92nd percentile method detects heatwaves from July 31-August 2 and August 4-8. The EHF method identifies a continuous heatwave from July 31 to August 8, covering both periods identified by the 92nd percentile method and indicating a longer duration of heat stress.
 
-![hw_2018_t_trend.png](hw_2018_t_trend.png)
+![hw_2018_t_trend.png](pics/02_pics/hw_2018_t_trend.png)
 
 Fig. 6: Heat wave episodes of summer of 2018.
 
@@ -144,7 +144,7 @@ Fig. 6: Heat wave episodes of summer of 2018.
 
 In 2019, the 92nd percentile method detects a heatwave from July 21-26. The EHF method identifies this period as well but also detects an earlier heatwave from June 22 to July 2. Both methods agree on the late July heatwave, but the EHF method additionally identifies a significant heat period in late June to early July.
 
-![hw_2019_t_trend.png](hw_2019_t_trend.png)
+![hw_2019_t_trend.png](pics/02_pics/hw_2019_t_trend.png)
 
 Fig. 7: Heat wave episodes of summer of 2019.
 
@@ -152,7 +152,7 @@ Fig. 7: Heat wave episodes of summer of 2019.
 
 In 2022, the 92nd percentile method does not detect any heatwaves. In contrast, the EHF method identifies three heatwaves: June 14-21, July 15-22, and July 31-August 5. The EHF method detects significant heat stress periods that the 92nd percentile method misses, indicating differences in sensitivity. This significant difference highlights the 92nd percentile method's limitations in capturing periods of sustained heat stress, which the EHF method can quantify through its cumulative heat load assessment.
 
-![hw_2022_t_trend.png](hw_2022_t_trend.png)
+![hw_2022_t_trend.png](pics/02_pics/hw_2022_t_trend.png)
 
 Fig. 8: Heat wave episodes of summer of 2022.
 
@@ -160,7 +160,7 @@ Fig. 8: Heat wave episodes of summer of 2022.
 
 In 2023, the 92nd percentile method detects heatwaves from July 8-11 and August 21-25. The EHF method identifies these periods and additional heat stress from July 5-11 and August 15-25. Both methods detect the late August heatwave, but the EHF method captures more extended periods of heat stress.
 
-![hw_2023_t_trend.png](hw_2023_t_trend.png)
+![hw_2023_t_trend.png](pics/02_pics/hw_2023_t_trend.png)
 
 Fig. 9: Heat wave episodes of summer of 2023.
 
@@ -194,12 +194,12 @@ To calculate the heat wave return period for future scenarios, we used climate p
 
 Below are the bubble plots for the measured and future scenarios:
 
-![hw_bubble_past_future1.png](hw_bubble_past_future11.png)
+![hw_bubble_past_future1.png](pics/02_pics/hw_bubble_past_future11.png)
 
 Figure 10: Heatwaves: Total Heat Load vs Year. Shows historical (gray) and projected (yellow for SSP2, red for SSP5) heatwaves based on total heat load (EHF). Bubble size represents maximum EHF. Notable historical heatwaves (HW2003, HW2019, HW2023) are labeled.
 
 
-![hw_bubble_past_future2.png](hw_bubble_past_future22.png)
+![hw_bubble_past_future2.png](pics/02_pics/hw_bubble_past_future22.png)
 
 
 Figure 11: Heatwaves: Max Temperature vs Year. Displays historical (gray) and projected (yellow for SSP2, red for SSP5) heatwaves based on maximum temperature. Bubble size represents total heat load (EHF). Notable historical heatwaves (HW2003, HW2019, HW2023) are labeled.
